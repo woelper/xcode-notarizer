@@ -25,7 +25,7 @@ This action supports `.dmg`, `.pkg` file and `.app` folder.
 
 ```yaml
 - name: Notarize product
-  uses: love-action/xcode-notarizer@v1
+  uses: love-actions/xcode-notarizer@v1
   with:
     product-path: ./dist/my_app.app
     key-content: ${{ secrets.API_KEY }}
